@@ -91,6 +91,6 @@ function randomize() {
   let wine = wines[wineIndex];
 
   // Update the HTML elements
-  cityElement.innerText = "Random Estonian City: " + city;
-  wineElement.innerText = "Random Wine: " + wine;
+  cityElement.innerText = " " + city;
+  wineElement.innerText = " " + wine;
 }
